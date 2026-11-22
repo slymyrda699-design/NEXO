@@ -1,6 +1,8 @@
-import "./globals.css";
+
 "use client";
+
 import { useState } from "react";
+import "./globals.css";
 
 export default function Home() {
   const [prompt, setPrompt] = useState("");
@@ -57,4 +59,5 @@ export default function Home() {
       </p>
     </main>
   );
-          }
+}
+
