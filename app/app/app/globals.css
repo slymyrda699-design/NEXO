@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #080b18;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+textarea {
+  background: #151a30;
+  color: white;
+  border: 1px solid #8065ff;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
